@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <style>
+        button{
+            height: 35px;
+            width: 155px;
+            border-width: 2px;
+            border-radius:15px;
+        }
+        button:hover{
+            background-color: rgba(128, 128, 128, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="one">So thu nhat:</h1>
+    <h1 id="two">So thu hai:</h1>
+    <h1 id="three">So thu ba:</h1>
+    
+    <h1 id="sum"></h1>
+    <h1 id="minus"></h1>
+    <button onclick="Thongtin()">Dien thong tin</button>
+
+    <script>
+        function Thongtin(){ 
+            var a = parseInt(prompt("Enter the first number:"));
+            var b = parseInt(prompt("Enter the second number:"));
+            var c = parseInt(prompt("Enter the third number:"));
+            var sum = a + b;
+            var minus = sum - c;
+
+            document.getElementById("one").innerHTML= "So thu nhat:" + " " + a; 
+            document.getElementById("two").innerHTML= "So thu hai:" + " " + b;
+            document.getElementById("three").innerHTML= "So thu ba:" + " " + c;
+
+            document.getElementById("sum").innerHTML= "Tong hai so dau:" + " " + a + " + " + b + " " + "=" + " " + sum;
+            document.getElementById("minus").innerHTML= "Hieu ba so:" + " " + sum + " " + "-" + " " + c + " " + "=" + " " + minus;
+        }
+    </script>
+</body>
+</html>
+
+
+

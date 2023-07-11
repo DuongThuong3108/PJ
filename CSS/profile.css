@@ -1,0 +1,52 @@
+#header{
+    /* background-color: aqua; */
+    margin: 0px;
+    padding: 10px;
+}
+
+/* margin: 0px auto để căn chỉnh giữa. */
+#main{
+    border: 2px solid gray;
+    width: 500px;
+    display: flex;
+    min-height: 600px;
+    background-color:blanchedalmond;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#content{
+    flex-basis: 60%;
+    max-height: 600px;
+    /* background-color:aqua; */
+}
+
+#sidebar{
+    flex-basis: 40%;
+    max-height: 300px;
+}
+
+#footer{
+    /* background-color: aqua; */
+    padding: 10px;
+}
+
+table{
+    /* border: 2px solid black;  */
+    border-spacing: 20px;
+    margin:0px auto;
+}
+
+#a{
+    /* background-color: blue; */
+    margin: 12px 0px 0px;
+}
+
+a{
+    padding: 7px 7px 2px 7px;
+}
+
+a:hover{
+    display: inline-block;
+    background-color:black;
+}

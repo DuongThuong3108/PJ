@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/521111.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: -130px ;
+    margin: 0px;
+}
+
+#header{
+    background-color: rgb(39, 39, 39);
+    max-height: 90px;
+}
+
+nav{
+    max-width: 1060px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    padding: 5px 0px 0px;
+    max-height: 85px;
+    width: auto;
+}
+
+#bar ul{
+    display: flex;
+}
+
+#bar ul li{
+    list-style-type: none;
+    padding: 10px;   /* lớp bên ngoài đầu tiên của li (so với ul) */
+    /* margin: 20px;    lớp bên ngoài thứ hai của li (so với ul) */
+}
+
+#bar li a{
+    color: #f8f8f8;
+    text-decoration: none;
+    display: block;
+    padding: 10px;      /* lớp bên ngoài đầu tiên của a (so với li) */
+}
+
+#bar a:hover{
+    border-bottom: 2px solid lightgray;
+}
+
+#main{
+    height: 400px;
+    width: 400px;
+    margin: 0px auto;
+    background-color: rgb(255,255,255,0.8);
+    border-radius: 15px;
+    
+}
+
+h2{
+    text-align: center;
+    padding-top: 45px;
+    margin-top: 85px;
+}
+
+form{
+    margin-left: 40px;
+    padding: 20px 0px;
+}
+
+input{
+    width: 320px;
+    height: 35px;
+    border-color: rgba(0, 0, 0, 0.63);
+    border-radius: 5px;
+}
+
+#login{
+    background-color: rgb(67, 172, 67);
+}
+
+#login:hover{
+    background-color:  green;
+}
+
+a{
+    text-decoration: none;
+}
+
+.welcome{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
